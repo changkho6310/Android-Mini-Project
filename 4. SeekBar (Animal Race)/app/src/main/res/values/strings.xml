@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="initial_point">100</string>
+    <string name="content_description_animal_race">Animal Race</string>
+    <string name="content_description_play_button">Play Button</string>
+    <string name="message_bet_animal">Bet on an animal, please!</string>
+    <string name="message_for_winner">Congratulation, you guessed right!</string>
+    <string name="message_for_looser">You guessed wrong. Good luck next time!</string>
+    <string name="winner">Winner</string>
+</resources>

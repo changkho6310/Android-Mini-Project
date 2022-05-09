@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+    android:background="@drawable/race_background">
+
+    <TextView
+        android:id="@+id/tv_initial_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="@string/initial_point"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/img_background"
+        app:layout_constraintEnd_toStartOf="@+id/img_background"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/img_background" />
+
+    <ImageView
+        android:contentDescription="@string/content_description_animal_race"
+        android:id="@+id/img_background"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/animal_race"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/rad_dog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/rad_cat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+
+        <RadioButton
+            android:id="@+id/rad_turtle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/radg"
+        app:layout_constraintTop_toTopOf="@+id/radg">
+
+        <SeekBar
+            android:id="@+id/seekBar_dog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="2"
+            android:thumb="@mipmap/ic_dog" />
+
+        <SeekBar
+            android:id="@+id/seekBar_cat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="2"
+            android:thumb="@mipmap/ic_cat" />
+
+        <SeekBar
+            android:id="@+id/seekBar_turtle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="2"
+            android:thumb="@mipmap/ic_turtle" />
+    </LinearLayout>
+
+    <ImageButton
+        android:contentDescription="@string/content_description_play_button"
+        android:id="@+id/imageButtonPlay"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/img_background"
+        app:srcCompat="@mipmap/ic_play_button" />
+
+    <TextView
+        android:id="@+id/tv_winner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/winner"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/img_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toEndOf="@+id/img_background"
+        app:layout_constraintTop_toTopOf="@+id/img_background" />
+</androidx.constraintlayout.widget.ConstraintLayout>

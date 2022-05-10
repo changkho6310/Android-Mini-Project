@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ứng Dụng Của Tôi</string>
+    <string name="input_information">Nhập Thông Tin</string>
+    <string name="input_name">Nhập họ tên</string>
+    <string name="input_address">Nhập địa chỉ</string>
+    <string name="btn_clear">Hủy</string>
+    <string name="btn_submit">Gửi</string>
+    <string name="text_hello">Xin chào</string>
+    <string name="text_your_address_is">Địa chỉ của bạn là</string>
+</resources>

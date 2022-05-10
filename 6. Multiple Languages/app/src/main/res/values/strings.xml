@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="input_information">Input Information</string>
+    <string name="input_name">Enter your full name</string>
+    <string name="input_address">Enter your address</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_submit">Submit</string>
+    <string name="text_hello">Hello</string>
+    <string name="text_your_address_is">Your address is</string>
+</resources>

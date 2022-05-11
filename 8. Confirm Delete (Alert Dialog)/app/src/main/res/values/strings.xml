@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="warning_delete_item">Warning</string>
+    <string name="confirm_message_delete_item">Do you really want to delete</string>
+    <string name="confirm_yes">Yes</string>
+    <string name="confirm_cancel">Cancel</string>
+</resources>

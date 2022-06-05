@@ -3,8 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android - Mini - Project/10. DatePickerDialog (+ Calendar, SimpleDateFormat)/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Android - Mini - Project/10. DatePickerDialog, TimePickerDialog (+ Calendar, SimpleDateFormat)/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Android - Mini - Project/11. Login Form (MVP Model)/app/src/main/res/layout/activity_login_view.xml" value="0.25" />
+        <entry key="..\:/Android - Mini - Project/11. Login Form (MVP Model)/app/src/main/res/layout/activity_main.xml" value="0.17083333333333334" />
       </map>
     </option>
   </component>

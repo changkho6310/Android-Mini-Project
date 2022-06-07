@@ -3,11 +3,17 @@ package com.example.myapplication.Presenter;
 import com.example.myapplication.Model.Account;
 
 public interface LoginContract {
-    interface View{
+    interface View {
         void loginSuccess();
+
         void loginFailure(String error);
     }
-    interface Presenter{
+
+    interface Presenter {
         void handleLogin(Account account);
+
+        void attachView(View view);
+
+        void detachView();
     }
 }

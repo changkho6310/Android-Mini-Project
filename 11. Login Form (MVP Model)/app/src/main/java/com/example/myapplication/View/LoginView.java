@@ -31,9 +31,15 @@ public class LoginView extends AppCompatActivity implements LoginContract.View, 
         initPresenter();
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mLoginPresenter.detachView();
+    }
+
     private void initPresenter() {
         mLoginPresenter = new LoginPresenter();
-        mLoginPresenter.setView(this);
+        mLoginPresenter.attachView(this);
     }
 
     private void registerListener() {

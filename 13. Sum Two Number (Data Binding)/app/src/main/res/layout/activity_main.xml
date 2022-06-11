@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="sum"
+            type="String" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtNumA"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Number A"
+            android:inputType="number"
+            android:paddingLeft="16dp" />
+
+        <EditText
+            android:id="@+id/edtNumB"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Number B"
+            android:inputType="number"
+            android:paddingLeft="16dp" />
+
+        <Button
+            android:id="@+id/btnSum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:text="Sum" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:textColor="@color/black"
+            android:text="@{sum}"
+            android:textSize="24sp" />
+    </LinearLayout>
+</layout>

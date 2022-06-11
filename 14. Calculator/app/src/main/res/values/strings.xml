@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Calculator (Without Negative Number)</string>
+    <string name="clear">Clear</string>
+    <string name="backspace">Backspace</string>
+    <string name="number_0" translatable="false">0</string>
+    <string name="number_1" translatable="false">1</string>
+    <string name="number_2" translatable="false">2</string>
+    <string name="number_3" translatable="false">3</string>
+    <string name="number_4" translatable="false">4</string>
+    <string name="number_5" translatable="false">5</string>
+    <string name="number_6" translatable="false">6</string>
+    <string name="number_7" translatable="false">7</string>
+    <string name="number_8" translatable="false">8</string>
+    <string name="number_9" translatable="false">9</string>
+    <string name="dot" translatable="false">.</string>
+    <string name="equal" translatable="false">=</string>
+    <string name="minus" translatable="false">-</string>
+    <string name="plus" translatable="false">+</string>
+    <string name="multiply" translatable="false">*</string>
+    <string name="divide" translatable="false">/</string>
+    <string name="nan_divide_zero">NaN (Divide 0)</string>
+    <string name="nan_wrong_input">NaN (Wrong Input)</string>
+</resources>

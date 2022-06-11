@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Máy Tính Bỏ Túi (Không số âm)</string>
+    <string name="clear">Xóa</string>
+    <string name="backspace">Quay lại</string>
+    <string name="nan_divide_zero">NaN (Lỗi chia cho 0)</string>
+    <string name="nan_wrong_input">NaN (Dữ liệu đầu vào sai)</string>
+</resources>

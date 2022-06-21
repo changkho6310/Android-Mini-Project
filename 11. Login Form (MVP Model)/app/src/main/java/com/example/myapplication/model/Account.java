@@ -1,23 +1,30 @@
-package com.example.myapplication.Model;
+package com.example.myapplication.model;
 
 import android.text.TextUtils;
 import android.util.Patterns;
 
 public class Account {
-    private String email;
-    private String password;
+    String email;
+    String password;
 
-    public boolean isValidEmail() {
+    public Account(String email, String password) {
+        this.email = email;
+        this.password = password;
+    }
+
+    public boolean isEmailValid() {
         return !TextUtils.isEmpty(email) && Patterns.EMAIL_ADDRESS.matcher(email).matches();
     }
 
-    public boolean isValidPassword() {
+    public boolean isPasswordValid() {
         return !TextUtils.isEmpty(password) && password.length() >= 6;
     }
 
-    public Account(String username, String password) {
-        this.email = username;
-        this.password = password;
+    public boolean loginSuccessfully() {
+        return isEmailValid()
+                && isPasswordValid()
+                && email.equals("admin@gmail.com")
+                && password.equals("123123");
     }
 
     public String getEmail() {

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="invalid_email_result">Wrong Email Format!</string>
+    <string name="invalid_password_result">Password has at least 6 characters!</string>
+    <string name="login_failed_result">Email or password is incorrect!</string>
+    <string name="login_success_result">Login Successfully!</string>
 </resources>

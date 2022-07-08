@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LoginFirebase</string>
+    <string name="sign_up"><u>Sign up</u></string>
+    <string name="reset_password"><u>Reset password</u></string>
+    <string name="back"><u>Back</u></string>
+    <string name="msg_email_verified">Email has been verified</string>
+    <string name="click_send_verification_email"><u>Send verification</u></string>
+
+
+    <string name="facebook_app_id">2625741027556360</string>
+    <string name="fb_login_protocol_scheme">fb2625741027556360</string>
+    <string name="facebook_client_token">cf241890103e963210f7508b0bdd1a15</string>
+</resources>

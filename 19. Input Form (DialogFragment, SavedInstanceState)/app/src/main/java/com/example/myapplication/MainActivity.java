@@ -26,9 +26,7 @@ public class MainActivity extends AppCompatActivity implements InputFragment.OnB
                     .commit();
         } else {
             // Activity restart
-
-            // How to store data in Fragment and
-            // restore them when activity restart (Orientation change)?
+            // System will automatically restore this Activity & Fragments UI states
 
         }
     }
